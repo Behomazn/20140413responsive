@@ -1,0 +1,82 @@
+/* ### レイアウトをリキッドにして1カラムモデルに */
+#container	{
+	/* 幅を可変で指定  */
+	}
+
+article	{
+	/* フロートを解除し幅を可変で指定  */
+}
+aside	{
+	/* フロートを解除し幅を可変で指定  */
+}
+	
+/* アイコンメニューの表示位置移動 */
+
+#container	{
+	/* #iconmenuに対して親を宣言 */
+}
+
+#iconmenu	{
+	/* #containerに対して子を宣言し、親からの位置を指定 */
+}
+
+footer	{
+	padding-bottom: 60px;
+}
+
+#site, #iconmenu	{
+	float: none;
+}
+#iconmenu ul {
+	margin: 0;
+	padding: 0;
+}
+#iconmenu img {
+	width: 30px;
+	height: 30px;
+}
+/* ナビゲーションメニューのリキッド化 */
+nav	{
+	font-size: 20px;
+	border-top: 0px;
+	background-color: #0097d8;
+}
+nav li	{
+	/* フロートを解除 */
+	border-top: 1px solid #fff;
+}
+nav li a	{
+	/* 可変幅になるように */
+}
+
+/* 記事の見出しのコンパクト化 */
+.date	{
+	float: none;
+	font-size: 12px;
+	line-height: 2.5;
+	display: inline;
+	padding: 3px 10px;
+	border: 0px;
+	border-radius: 5px;
+}
+
+.date span	{
+	font-size: 12px;
+	display: inline;
+}
+
+article h2	{
+	font-size: 24px;
+}
+
+
+
+/* ヘッダーカスタマイズ */
+#site h1	{
+	font-size: 24px;
+}
+#site img	{
+	vertical-align: -10px
+}
+
+
